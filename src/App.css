@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.Jumbotron{
+  background-color: rgba(229, 229, 229, 0.511);
+  height: 250px;
+  background-image: url('./static/background.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.Jumbotron h1{
+  font-size: 50px;
+}
+
+.Jumbotron p{
+  font-size: 20px;
+}
+
+.Jumbotron button{
+  padding: 5px 8px;
+  border: 1px solid #3394FF;
+  background-color: #3394FF;
+  border-radius: 5px;
+  color: white ;
+
+}
+.Jumbotron button:hover{
+  border: 1px solid #33ebba;
+  background-color: #33ebba;
+  border-radius: 5px;
+  color: white;
+  
+}
